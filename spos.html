@@ -1,0 +1,190 @@
+<html>
+<head>
+  <title>Курс «Операційні системи / Операцтонные системи»</title>
+  <style>
+    DIV { margin-bottom: 15px; }
+    UL { margin: 5px; }
+    IMG.logo { margin: 10px; width: 100px; }
+    TD { width: 50%; vertical-align: top; }
+  </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    function hide(what) {
+        var unwhat = (what === 'left' ? 'right' : 'left');
+        $('.' + what).css('display', 'none').css('width', '0');
+        $('.' + unwhat).css('display', '').css('width', '100%');
+        return false;
+    }
+    </script>
+</head>
+<body style="padding: 50 100">
+
+<div style="width: 100%; text-align: center;">
+  <img src="img/os-logo.png" class="logo">
+  <img src="img/kpi-logo.png" class="logo">
+</div>
+
+<table border="0" cellspacing="20">
+<tr>
+<td class="left">
+  <div class="right" style="width: 100%; text-align: right; font-size: larger;">
+    <a href="#" onclick="hide('right')">⇥</a>
+  </div>
+  <h2>Курс «Операційні системи»</h2>
+  <div>
+    <p>Версія курсу: 2014-10-06</p>
+    <p>Цей курс читається в КПІ на факультеті інформатики і обчислювальної техніки з 2009 року. Мета курсу — сформувати уявлення про внутрішність операційних систем та розуміння можливостей, які вони дають прикладному програмісту.</p>
+    <p>Якщо ви хочете доповнити або зробити інший внесок у його розвиток, матеріали курсу знаходяться на <a href="https://github.com/vseloved/kpi-spos">github</a>. Вони доступні для використання за ліцензією <a href="http://creativecommons.org/licenses/by-nc/2.0/">Creative Commons BY-NC 2.0</a></p>
+    <img src="img/cc-by-nc2.png" width="100">
+  </div>
+  <h3>Конспекти лекцій</h3>
+  <div>
+    Ці матеріали побудовані у вигляді опорного конспекту без детального розгляду всіх тем. Для кожної теми приводиться підбірка до 10 додаткових джерел (в основному, англійською мовою), в яких детально розглядаються питання, що обговорюються під час лекції.
+    <ol>
+      <li><a href="pdf/intro-uk.pdf">Вступ</a></li>
+      <li><a href="pdf/dev-uk.pdf">Робота з апаратною частиною</a></li>
+      <li><a href="pdf/abi-uk.pdf">Бінарний інтерфейс</a></li>
+      <li><a href="pdf/mem-uk.pdf">Управління пам'яттю</a></li>
+      <li><a href="pdf/exe-uk.pdf">Виконувані файли</a></li>
+      <li><a href="pdf/proc-uk.pdf">Управління процесами</a></li>
+      <li><a href="pdf/sync-uk.pdf">Синхронізація</a></li>
+      <li><a href="pdf/files-uk.pdf">Файлові системи</a></li>
+      <li><a href="pdf/net-uk.pdf">Робота з мережею</a></li>
+      <li><a href="pdf/sec-uk.pdf">Безпека</a></li>
+      <li>Unix</li>
+      <li>Windows</li>
+    </ol>
+    <a href="pdf/os-uk.pdf">Всі лекції одним файлом</a><br>
+    <a href="pdf/lit-uk.pdf">Список літератури</a>
+  </div>
+  <h3>Гостьові лекції</h3>
+  <div>
+    Кожного року я намагаюсь запрошувати представників ІТ-індустрії на гостьові лекції щодо тем, які стосуються курсу. Відео деяких з лекцій опубліковано в інтернеті.
+  </div>
+</td>
+<td class="right">
+  <div class="left" style="font-size: larger;">
+    <a href="#" onclick="hide('left')">⇤</a>
+  </div>
+  <h2>Курс «Операционные системы»</h2>
+  <div>
+    <p>Версия курса: 2014-10-06</p>
+    <p>Этот курс читается в КПИ на факультете информатики и вычислительной техники с 2009 года. Цель курсу — сформировать представление про внутренность операционных систем и понимание возможностей, которые они дают прикладному програмисту.</p>
+    <p>Если вы хотите дополнить или сделать другой взнос в его развитие, матераилы курсы находятся на <a href="https://github.com/vseloved/kpi-spos">github</a>. Они доступны для использования под лицензией <a href="http://creativecommons.org/licenses/by-nc/2.0/">Creative Commons BY-NC 2.0</a></p>
+    <img src="img/cc-by-nc2.png" width="100">
+  </div>
+  <h3>Конспекты лекций</h3>
+  <div>
+    Эти материали построены в виде опорного конспекта без детального рассмотрения всех тем. Для каждой темы приводится подборка до 10 дополнительных источников (в основном, на английском языке), в которых детально рассматриваются вопросы, обсуждаемые на лекциях.
+    <ol>
+      <li><a href="pdf/intro-ru.pdf">Вступление</a></li>
+      <li><a href="pdf/dev-ru.pdf">Работа с аппаратной частью</a></li>
+      <li><a href="pdf/abi-ru.pdf">Бинарный интерфейс</a></li>
+      <li><a href="pdf/mem-ru.pdf">Управление памятью</a></li>
+      <li><a href="pdf/exe-ru.pdf">Исполняемые файлы</a></li>
+      <li><a href="pdf/proc-ru.pdf">Управление процессами</a></li>
+      <li><a href="pdf/sync-ru.pdf">Синхронизация</a></li>
+      <li><a href="pdf/files-ru.pdf">Файловые системи</a></li>
+      <li><a href="pdf/net-ru.pdf">Работа с сетью</a></li>
+      <li><a href="pdf/sec-ru.pdf">Безопасность</a></li>
+      <li>Unix</li>
+      <li>Windows</li>
+    </ol>
+    <a href="pdf/os-ru.pdf">Все лекции одним файлом</a><br>
+    <a href="pdf/lit-ru.pdf">Список литературы</a>
+  </div>
+  <h3>Гостевые лекции</h3>
+  <div>
+    Каждый год я стараюсь приглашать людей из ІТ-індустрии на гостевые лекции по темам, касающимся курса. Видео некоторых из лекций опубликовано в интернете.
+  </div>
+</td>
+</tr>
+
+<tr>
+  <td colspan="2" style="width: 100%" align="center">
+    <iframe width="320" height="180" src="http://www.youtube.com/embed/m5Bgh5qyTI4" frameborder="0" allowfullscreen></iframe>
+    &nbsp;&nbsp;&nbsp;
+    <iframe width="320" height="180" src="http://www.youtube.com/embed/to9bruCxC9I" frameborder="0" allowfullscreen></iframe>
+    &nbsp;&nbsp;&nbsp;
+    <iframe width="320" height="180" src="http://www.youtube.com/embed/rsYg79C43x8" frameborder="0" allowfullscreen></iframe>
+</td>
+
+</tr>
+<tr>
+<td class="left">
+  <h3>Практична робота</h3>
+  <div>
+    <p>Самостійна робота передбачає встановлення ОС Linux і знайомство з основними способами взаємодії з нею як типовою Unix-подібною OC. Для цієї роботи надаються наступні матеріали: загальне <a href="pdf/ind-uk.pdf">керівництво</a> і лабораторні роботи:</p>
+    <p>Базові роботи:</p>
+    <ol>
+      <li><a href="pdf/lab-sh-uk.pdf">Shell</a>
+          (<a href="pdf/var-sh-ru.pdf">варіанти завдань</a>,
+           <a href="spos/log.txt.zip">лог-файл</a>)
+      </li>
+      <li><a href="pdf/lab-syscalls-uk.pdf">Системні виклики</a></li>
+      <li><a href="pdf/lab-asm-uk.pdf">Асемблер</a></li>
+      <li><a href="pdf/lab-sync-uk-pdf">Сихронізація</a>
+          (<a href="pdf/var-sync-uk.pdf">варіанти завдань</a>)
+      </li>
+      <li><a href="pdf/lab-fs-uk.pdf">Файлова система</a>
+          (<a href="pdf/var-fs-ku.pdf">варіанти завдань</a>)
+      </li>
+      <li><a href="pdf/net-uk.pdf">Взаємодія через мережу</a>
+          (<a href="pdf/var-net-uk.pdf">варіанти завдань</a>)
+      </li>
+    </ol>
+    <p>Додаткові роботи:</p>
+    <ol>
+      <li>Драйвери</li>
+      <li><a href="pdf/lab-conc-uk.pdf">Мови для конкурентного програмування</a></li>
+    </ol>
+  </div>
+  <h3>Теоретичні тести</h3>
+  <div>
+    <p>Список <a href="pdf/exam-uk.pdf">теоретичених питань</a> до заліку/ісптиу.</p>
+    <!--<p>Також для перевірки розуміння теоретичної частини курсу можна скористатися автоматичную <a href="http://kpi-spos.heroku.com">системою тестування</a>.</p>-->
+  </div>
+</td>
+<td class="right">
+  <h3>Практическая работа</h3>
+  <div>
+    <p>Самостоятельная работа требует установки ОС Linux и знакомство с основными способами взаимодействия с ней как типичной Unix-подобной OC. Для этой работы даются следующие материалы: общее <a href="pdf/ind-ru.pdf">руководство</a> и лабораторные работы:</p>
+    <p>Базовые работы:</p>
+    <ol>
+      <li><a href="pdf/lab-sh-ru.pdf">Shell</a>
+          (<a href="pdf/var-sh-ru.pdf">варианты заданий</a>,
+           <a href="spos/log.txt.zip">лог-файл</a>)
+      </li>
+      <li><a href="pdf/lab-syscalls-ru.pdf">Системные вызовы</a></li>
+      <li><a href="pdf/lab-asm-ru.pdf">Ассемблер</a></li>
+      <li><a href="pdf/lab-sync-ru.pdf">Сихронизация</a>
+          (<a href="pdf/var-sync-ru.pdf">варианты заданий</a>)
+      </li>
+      <li><a href="pdf/lab-fs-ru.pdf">Файловая система</a>
+          (<a href="pdf/var-fs-ru.pdf">варианты заданий</a>)
+      </li>
+      <li><a href="pdf/lab-net-ru.pdf">Взаемодействие через сеть</a>
+          (<a href="pdf/var-net-ru.pdf">варианты заданий</a>)
+      </li>
+    </ol>
+    <p>Дополнительные работы:</p>
+    <ol>
+      <li>Драйверы</li>
+      <li><a href="pdf/lab-conc-ru.pdf">Языки для конкуррентного программирования</a></li>
+    </ol>
+  </div>
+  <h3>Теоретические тесты</h3>
+  <div>
+    <p>Список <a href="pdf/exam-ru.pdf">теоретических вопросов</a> к зачету/экзамену.</p>
+    <!--<p>Также для проверки понимания теоретической части курса можно использовать автоматическую <a href="http://kpi-spos.heroku.com">систему тестирования</a>.</p>-->
+  </div>
+</td>
+</tr>
+<tr>
+  <td colspan="2" style="width: 100%" align="center">
+    (cc) 2014 Vsevolod Dyomkin
+  </td>
+</tr>
+</table>
+</body>
+</html>
