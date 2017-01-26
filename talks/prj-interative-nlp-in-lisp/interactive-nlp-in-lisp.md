@@ -125,6 +125,6 @@ by Gábor Melis (http://quotenil.com/)
 * Works at Google Deep Mind
 
 
-## Appendix: Some Code Usef in the Presentation
+## Appendix: Code from the Presentation
 
 See [here](prj-int-nlp.lisp)
