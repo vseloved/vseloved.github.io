@@ -2,7 +2,7 @@
 
 ## A Bit about Me
 
-Lisp programmer
+* Lisp programmer
 * Currently work in cognition-related computing (NLP, ML, AI, …)
 * 5+ years of NLP work at Grammarly
 * Founder of [(m8n)ware](http://m8nware.com)
