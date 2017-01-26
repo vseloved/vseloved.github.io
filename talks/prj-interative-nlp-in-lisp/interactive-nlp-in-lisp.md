@@ -127,4 +127,4 @@ by Gábor Melis (http://quotenil.com/)
 
 ## Appendix: Some Code Usef in the Presentation
 
-See <prj-int-nlp.lisp>
+See [here](prj-int-nlp.lisp)
